@@ -59,7 +59,7 @@ async function main(){
         const sig  = await getSignature(
             signer.address,
             l.id,
-            "850000000000000000",
+            "850000000000000000", //your bid value 
             l.highestBid
         )  
         console.log(sig)
