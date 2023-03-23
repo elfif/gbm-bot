@@ -3,7 +3,7 @@ const abi = require('./abis/gbm-abi')
 const ethers = require('ethers')
 
 function getSigner(provider) {
-    let account1 = ethers.HDNodeWallet.fromPhrase("service dice army aspect rocket nurse board input sustain close avoid bird")
+    let account1 = ethers.HDNodeWallet.fromPhrase("put your seed phrase here")
     account1 = account1.connect(provider)
     return account1
 }
