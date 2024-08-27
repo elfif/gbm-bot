@@ -1,0 +1,1 @@
+id, orderId, tokenId, type, endsAt, cancelled, category, highestBidder, highestBid, claimAt, totalBids, totalBidsVolume, platformFees, gbmFees, royaltyFees, sellerProceeds
